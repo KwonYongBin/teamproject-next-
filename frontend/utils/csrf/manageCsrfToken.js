@@ -12,7 +12,7 @@ import axios from './axiosSetup.js';
  */
 export const refreshCsrfToken = async() => {
     try{
-        await axios.get("http://54.180.89.176:9000/csrf/refresh", {
+        await axios.get("http://teamproject-bicycleapp.duckdns.org:9000/csrf/refresh", {
             withCredentials: true // ✅ 1. 쿠키 전송 허용
         });
         console.log("---------------->> 토큰 최초 재발급 !!!")
