@@ -25,7 +25,7 @@ export function SocialLogin(){
         }
         else{
 //             urldata='http://'+hostName+':3000/auth';
-            urldata='http://'+hostName+':3000/auth';
+            urldata='http://'+hostName+'/auth';
         }
         // 플랫폼별 oauth 요청 URL
         console.log(urldata);
