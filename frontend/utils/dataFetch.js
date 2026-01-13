@@ -6,7 +6,7 @@ import { useAuthStore } from "@/store/authStore.js";
  * @type {axios.AxiosInstance}
  */
 const api = axios.create({
-    baseURL: "/api",
+    baseURL: "https://teamproject-bicycleapp.duckdns.org/api",
     withCredentials: true,
 });
 
