@@ -217,7 +217,7 @@ export const axiosPost = async (url, data) => {
 
 export const axiosDataPost = async (url, data, customHeaders={}) => {
     try {
-        const reqUrl = `http://54.180.89.176:9000${url}`;
+        const reqUrl = url;
 
         const headers = {
             "Content-Type": "application/json",
