@@ -16,9 +16,9 @@ kakaopay:
     approve-url: "https://kapi.kakao.com/v1/payment/approve"
 
     # 리다이렉트 URL (Controller의 메서드와 매핑되어야 함)
-    success-redirect-url: "http://teamproject-bicycleapp.duckdns.org:9000/kakaopay/success"
-    cancel-redirect-url: "http://teamproject-bicycleapp.duckdns.org:9000/kakaopay/cancel"
-    fail-redirect-url: "http://teamproject-bicycleapp.duckdns.org:9000/kakaopay/fail"
+    success-redirect-url: "http://teamproject-bicycleapp.duckdns.org/kakaopay/success"
+    cancel-redirect-url: "http://teamproject-bicycleapp.duckdns.org/kakaopay/cancel"
+    fail-redirect-url: "http://teamproject-bicycleapp.duckdns.org/kakaopay/fail"
     
     # success-redirect-url: "http://localhost:9000/kakaopay/success"
     # cancel-redirect-url: "http://localhost:9000/kakaopay/cancel"
