@@ -212,8 +212,8 @@ export default function Map({ travelFoodList,
                             : "https://teamproject-next-frontend.vercel.app";   // 필요 시 포트 포함
 
 //                         const BASE_URL = host === "localhost"
-//                             ? "http://54.180.89.176:3000"
-//                             : "http://54.180.89.176:3000";   // 필요 시 포트 포함
+//                             ? "http://https://teamproject-next-frontend.vercel.app"
+//                             : "http://https://teamproject-next-frontend.vercel.app";   // 필요 시 포트 포함
 
                         const greenMarkerSrc  = `${BASE_URL}/images/travel_markers/marker_main.png`;
                         const redMarkerSrc    = `${BASE_URL}/images/travel_markers/marker_main_select.png`;
@@ -339,8 +339,8 @@ export default function Map({ travelFoodList,
                 : "https://teamproject-next-frontend.vercel.app";   // 필요 시 포트 포함
 
 //             const BASE_URL = host === "localhost"
-//                 ? "http://54.180.89.176:3000"
-//                 : "http://54.180.89.176:3000";   // 필요 시 포트 포함
+//                 ? "http://https://teamproject-next-frontend.vercel.app"
+//                 : "http://https://teamproject-next-frontend.vercel.app";   // 필요 시 포트 포함
 
             let orangeMarkerSrc = '';
             let selectMarkerSrc = '';
