@@ -27,7 +27,7 @@ export const refreshCsrfToken = async() => {
  */
 export const createCsrfToken = async() => {
     try{
-        await axios.get("http://54.180.89.176:9000/csrf/create", {
+        await axios.get("/", {
             withCredentials: true // ✅ 1. 쿠키 전송 허용
         });
         console.log("---------------->> 토큰 최초 발급 !!!")
