@@ -24,7 +24,7 @@ public class WebConfig implements WebMvcConfigurer {
      *
      * 예)
      *  - 실제 저장 경로: /uploads/파일명.jpg
-     *  - 접근 URL: http://54.180.89.176:9000/uploads/파일명.jpg
+     *  - 접근 URL: http://localhost:8080/uploads/파일명.jpg
      */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {

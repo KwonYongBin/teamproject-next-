@@ -65,7 +65,6 @@ api.interceptors.request.use(
     (error) => Promise.reject(error)
 );
 
-
 /**
  * 제목 : 응답(Response) 인터셉터
  * 서버(Spring Boot)가 응답을 보내고, 브라우저가 그 응답을 받은 직후 실행된다.

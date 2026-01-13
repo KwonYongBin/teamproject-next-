@@ -21,11 +21,12 @@ export function SocialLogin(){
         let urldata=""
         if(hostName==="localhost")
         {
-            urldata='http://54.180.89.176:3000/auth';
+            urldata='https://teamproject-next-frontend.vercel.app/auth';
+//             urldata='http://54.180.89.176:3000/auth';
+//             urldata='http://localhost:3000/auth';
         }
         else{
-//             urldata='http://'+hostName+':3000/auth';
-            urldata='http://'+hostName+'/auth';
+            urldata='http://'+hostName+':3000/auth';
         }
         // 플랫폼별 oauth 요청 URL
         console.log(urldata);
