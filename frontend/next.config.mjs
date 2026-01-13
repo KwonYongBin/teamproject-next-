@@ -15,8 +15,8 @@
 //           destination: 'https://teamproject-bicycleapp.duckdns.org/csrf/:path*',
 //         },
 //   ];
-    },
-};
+//     },
+// };
 const nextConfig = {
     output: "standalone",
     reactCompiler: true,
