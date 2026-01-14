@@ -5,7 +5,7 @@ import { useAuthStore } from "@/store/authStore.js";
  * axios 환경 설정 - 쿠키 저장, 기본  URL
  * @type {axios.AxiosInstance}
  */
-const api = axios.create({
+export const api = axios.create({
     baseURL: "https://teamproject-bicycleapp.duckdns.org/api",
      xsrfCookieName: "XSRF-TOKEN",
      xsrfHeaderName: "X-XSRF-TOKEN",
