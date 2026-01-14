@@ -69,5 +69,15 @@ export function SocialAuth(){
         }
     },[])
 
+  useEffect(() => {
+    api.get("/csrf")
+      .then(() => {
+        console.log("🟢 CSRF 토큰 발급 완료");
+      })
+      .catch(err => {
+        console.error("🔴 CSRF 발급 실패", err);
+      });
+  }, []);
+
     return(<></>)
 }

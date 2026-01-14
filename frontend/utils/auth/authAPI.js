@@ -2,6 +2,7 @@ import { validateFormCheck,  validateSignupFormCheck } from '@/utils/validate.js
 import {axiosPost} from "@/utils/dataFetch";
 import {refreshCsrfToken} from "@/utils/csrf/manageCsrfToken";
 import { useDaumPostcodePopup } from 'react-daum-postcode'; // 주소 찾기 관련 import
+import api from "@/lib/api";
 
 /** Login */
 export const getLogin = async(formData, param) => {
