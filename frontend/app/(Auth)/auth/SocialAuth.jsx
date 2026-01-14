@@ -6,7 +6,6 @@ import {refreshCsrfToken} from "@/utils/csrf/manageCsrfToken";
 import Swal from "sweetalert2";
 import {useRouter} from "next/navigation";
 import {useAuthStore} from "@/store/authStore";
-import api from "@/lib/api";
 
 
 export function SocialAuth(){
@@ -69,16 +68,6 @@ export function SocialAuth(){
             handleSocialtoken();
         }
     },[])
-
-  useEffect(() => {
-    api.get("/csrf")
-      .then(() => {
-        console.log("🟢 CSRF 토큰 발급 완료");
-      })
-      .catch(err => {
-        console.error("🔴 CSRF 발급 실패", err);
-      });
-  }, []);
 
     return(<></>)
 }
