@@ -26,8 +26,6 @@ const API_BASE = getApiBase();
  */
 export const getChatbotResponse = async (userMessage) => {
     try {
-    console.log("-----------------------------------------");
-            console.log("현재 브라우저에 저장된 전체 쿠키:", document.cookie);
         // CSRF Token(XSRF-TOKEN 쿠키) 추출
         const csrfToken = document.cookie
             .split("; ")
