@@ -226,7 +226,7 @@ export function MyInfopage(){
         }
         const Json_loginInfo = JSON.parse(loginInfo);
         //isLogin하면 스프링이 데이터를 제대로 못받아서 loggedIn으로 변경.
-        const loginInfo_goingback={ uid : Json_loginInfo.userId, loggedIn : Json_loginInfo.isLogin, socialDupl : Json_loginInfo.isSocial}
+        const loginInfo_goingback={ uid : Json_loginInfo.userId, loggedIn : Json_loginInfo.tostring(), socialDupl : Json_loginInfo.isSocial}
         const getUserInfo = async() =>{
             result = await getInfo(loginInfo_goingback);
             result["upass"] = "패스워드는 비밀입니다"

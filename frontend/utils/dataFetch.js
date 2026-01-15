@@ -218,6 +218,7 @@ export const axiosPost = async (url, data) => {
         const response = await api.post( reqUrl, data,
             { headers: headers } // 수정된 헤더 사용
         );
+        console.log("response :: ", response);
         return response.data;
     }catch(error) {
         console.log("🎯 에러발생, 페이지 이동합니다!!", error);
