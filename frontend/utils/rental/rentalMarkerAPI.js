@@ -53,7 +53,7 @@ export const getRentalPayment = (priceInfo, paymentMethod) => async(dispatch, ge
     };
 
     try {
-        const url = "http://54.180.155.93/kakaopay/ready";
+        const url = "https://bicycle-app.duckdns.org/kakaopay/ready";
         const result = await axiosPost(url, rentalPayload); // result는 DTO 객체
 
         console.log("백엔드로부터의 최종 응답:", result);

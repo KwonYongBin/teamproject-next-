@@ -6,7 +6,7 @@ import axios from "axios";
 import Link from "next/link";
 
 // 로컬주소를 통해 백엔드 연결하기 위해 엔드포인트 주소를 변수에 할당
-const API_URL = "http://54.180.155.93/api/rental/status";
+const API_URL = "https://bicycle-app.duckdns.org/api/rental/status";
 
 export default function RentalPaymentResults() {
 

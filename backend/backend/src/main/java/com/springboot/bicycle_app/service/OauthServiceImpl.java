@@ -75,7 +75,7 @@ public class OauthServiceImpl implements OauthService{
                     sb.append("&redirect_uri=https://teamproject-next-frontend.vercel.app/auth"); // TODO 인가코드 받은 redirect_uri 입력
                 }
                 else {
-                    sb.append("&redirect_uri=http://54.180.155.93/auth");// 로컬망 내 다른 PC 접속을 위해 루트 돌림
+                    sb.append("&redirect_uri=https://bicycle-app.duckdns.org/auth");// 로컬망 내 다른 PC 접속을 위해 루트 돌림
                 }
             }
             else if(token.getSocial().equals("naver")){

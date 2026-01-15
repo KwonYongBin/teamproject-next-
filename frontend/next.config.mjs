@@ -3,16 +3,16 @@
 //   reactCompiler: true,
 //     output: "standalone",
 //     async rewrites() {
-//     return destination: 'http://54.180.155.93'
+//     return destination: 'https://bicycle-app.duckdns.org'
 //   [
 //         {
 //           source: '/api/:path*',
-//           destination: 'http://54.180.155.93/api/:path*',
+//           destination: 'https://bicycle-app.duckdns.org/api/:path*',
 //         },
 //         // CSRF 관련 주소도 rewrite에 추가하세요
 //         {
 //           source: '/csrf/:path*',
-//           destination: 'http://54.180.155.93/csrf/:path*',
+//           destination: 'https://bicycle-app.duckdns.org/csrf/:path*',
 //         },
 //   ];
 //     },

@@ -44,7 +44,7 @@ public class WebConfig implements WebMvcConfigurer {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:3000", "http://54.180.155.93", "https://teamproject-next-frontend.vercel.app")
+                        .allowedOrigins("http://localhost:3000", "https://bicycle-app.duckdns.org", "https://teamproject-next-frontend.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);

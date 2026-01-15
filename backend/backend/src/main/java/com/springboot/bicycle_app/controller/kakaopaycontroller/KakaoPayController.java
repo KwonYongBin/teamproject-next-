@@ -60,7 +60,7 @@ public class KakaoPayController {
  
             String frontendUrl = "https://teamproject-next-frontend.vercel.app/rental/payment/complete?orderId=" + partnerOrderId;
 //            String frontendUrl = "http://localhost:3000/rental/payment/complete?orderId=" + partnerOrderId;
-//            String frontendUrl = "http://54.180.155.93/rental/payment/complete?orderId=" + partnerOrderId;
+//            String frontendUrl = "https://bicycle-app.duckdns.org/rental/payment/complete?orderId=" + partnerOrderId;
 
             return new RedirectView(frontendUrl); // 성공 시, React 라우트로 리다이렉트
 

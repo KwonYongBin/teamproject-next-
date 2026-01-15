@@ -155,8 +155,8 @@ public class SecurityConfig {
     @Bean
     public UrlBasedCorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-//        configuration.setAllowedOrigins(Arrays.asList("http://localhost:3000","http://54.180.89.176:3000", "http://172.16.250.148:3000", "https://teamproject-next-frontend.vercel.app","http://54.180.155.93"));
-        configuration.setAllowedOrigins(Arrays.asList("https://teamproject-next-frontend.vercel.app","http://localhost:3000","http://54.180.89.176:3000", "http://172.16.250.148:3000", "http://54.180.155.93"));
+//        configuration.setAllowedOrigins(Arrays.asList("http://localhost:3000","http://54.180.89.176:3000", "http://172.16.250.148:3000", "https://teamproject-next-frontend.vercel.app","https://bicycle-app.duckdns.org"));
+        configuration.setAllowedOrigins(Arrays.asList("https://teamproject-next-frontend.vercel.app","http://localhost:3000","http://54.180.89.176:3000", "http://172.16.250.148:3000", "https://bicycle-app.duckdns.org"));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS")); // ✅ 추가
         configuration.setAllowedHeaders(Arrays.asList("*")); // ✅ 모든 헤더 허용
         configuration.setExposedHeaders(Arrays.asList("*"));

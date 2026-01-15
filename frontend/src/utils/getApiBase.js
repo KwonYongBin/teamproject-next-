@@ -1,7 +1,7 @@
 // src/utils/getApiBase.js
 export function getApiBase() {
   const LOCAL = "http://localhost:9000";
-  const PROD = "http://54.180.155.93";
+  const PROD = "https://bicycle-app.duckdns.org";
 
   // 서버(SSR)에서는 window 없으니 PROD로 두되, 필요하면 LOCAL로 바꿔도 됨
   if (typeof window === "undefined") return PROD;
