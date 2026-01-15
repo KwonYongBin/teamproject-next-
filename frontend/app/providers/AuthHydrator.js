@@ -7,6 +7,7 @@ import { useAuthStore } from "@/store/authStore.js";
 export default function AuthHydrator() {
     const login = useAuthStore((s) => s.login);
     const logout = useAuthStore((s) => s.logout);
+    const authenticated = useAuthStore((s) => s.authenticated);
     // const setHydrating = useAuthStore((s) => s.setHydrating);
 
     useEffect(() => {
