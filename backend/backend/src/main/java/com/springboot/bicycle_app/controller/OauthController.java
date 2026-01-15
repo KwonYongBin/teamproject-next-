@@ -88,8 +88,8 @@ public class OauthController {
                     .httpOnly(true)
                     .path("/")
                     .maxAge(60 * 60 * 24 * 14)
-                    .sameSite("None") //📌 SameSite=Strict 는 cross-site 요청에서 쿠키 전송 ❌, None or Lax 변경
-                    //.secure(false)  //📌로컬 개발이라 http, https 아님, 배포 시 true
+                    .sameSite("LAX") //📌 SameSite=Strict 는 cross-site 요청에서 쿠키 전송 ❌, None or Lax 변경
+                    .secure(false)  //📌로컬 개발이라 http, https 아님, 배포 시 true
                     .build();
 
 

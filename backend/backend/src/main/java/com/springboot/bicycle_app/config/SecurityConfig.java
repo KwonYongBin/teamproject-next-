@@ -67,6 +67,7 @@ public class SecurityConfig {
                 .cors(cors -> cors.configurationSource(corsConfigurationSource()))
 
 
+
                 // CSRF 설정 (기존 유지)
 //            .csrf(csrf -> csrf
 //                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
