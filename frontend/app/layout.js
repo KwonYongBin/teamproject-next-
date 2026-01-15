@@ -15,7 +15,7 @@ import '@/styles/travel.css';
 import '@/styles/rental.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "@/styles/travel.css";
-import  CsrfInit from "@/components/csrfInit/CsrfInit.jsx"
+// import  CsrfInit from "@/components/csrfInit/CsrfInit.jsx"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-      <CsrfInit />
+      {/* <CsrfInit /> */}
       <AppShell>{children}</AppShell>
         <Script
             src="//dapi.kakao.com/v2/maps/sdk.js?appkey=13052c0aa951d8be4109ba36bf555930&autoload=false"
